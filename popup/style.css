@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+li {
+    max-width: 300px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    font-size: 12px;
+}
+
+h2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 0;
+}

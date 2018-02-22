@@ -1,0 +1,16 @@
+{
+    "name": "History Debugger",
+    "description": "Debug the History of the current Tab",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "history.png",
+        "default_popup": "popup/index.html"
+    },
+    "permissions": [
+        "activeTab",
+        "history",
+        "tabs",
+        "webNavigation"
+    ]
+}
